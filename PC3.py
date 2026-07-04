@@ -95,16 +95,11 @@ if opciones == 'Sobre mí':
     # unsafe_allow_html=True permite que Streamlit interprete las etiquetas HTML incluidas en la cadena
 
 elif opciones == 'Experiencia':
-    st.markdown("<h1 style='text-align: center;'>Nombre a la sección de experiencia 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Videos del curso 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?, 
-    ¿Qué te ha enseñado la programación?, 
-    ¿Qué te gusta de programar?, 
-    ¿Qué te gustaría hacer con la programación en el futuro?
-    ¿Cómo se relaciona lo que haz aprendido con tu carrera?
+   El curso ha significado un desafío muy grande mí durante el ciclo. Sin embargo, he podido atarvesar los avances del temario con ayuda y paciencia.
     """
 
     # Mostramos el texto
