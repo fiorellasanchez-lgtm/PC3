@@ -198,13 +198,13 @@ elif opciones == 'Gráficos':
             
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
-        st.subheader("🗺️ Mapa 1: Distribución geográfica")
+        st.subheader("🗺️ Mapa 1:)")
 
         # Interpretación del mapa
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del mapa.
+            Mapa sobre la ubicación geográfica de películas y series seleccionadas.
             </div>
             """,
             unsafe_allow_html=True
