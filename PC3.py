@@ -173,7 +173,7 @@ elif opciones == 'Gráficos':
                 width=800
             )
 
-     elif grafico_seleccionado == 'Gráfico_3':
+      elif grafico_seleccionado == 'Gráfico_3':
         # Título de la sección
         st.subheader("📊 Gráfico 3: Gráfico de barras")
 
