@@ -129,13 +129,13 @@ elif opciones == 'Gráficos':
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico_1':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Lenguas aisladas")
+        st.subheader("📊 Gráfico 1: Circular")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
+            Gráfico circular.
             </div>
             """,
             unsafe_allow_html=True
@@ -146,7 +146,7 @@ elif opciones == 'Gráficos':
 
         with col4:
             st.image(
-                "aisladas_base_datos.png",
+                "GRAFICO1.jpeg",
                 width=800
             )
 
