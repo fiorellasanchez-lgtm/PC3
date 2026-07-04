@@ -67,7 +67,7 @@ with st.sidebar:
 
 # Verifica si el usuario ha seleccionado la opción "Inicio" en el menú de navegación horizontal.
 # OJO: En caso que elijas el menú de la barra lateral (sidebar) debes cambiar "selected" por "opciones"
-if opciones == 'Inicio':
+if opciones == 'Sobre mí':
     st.markdown("<h1 style='text-align: center;'>FIORELLA SÁNCHEZ ZÁRATE BLOG</h1>", unsafe_allow_html=True)
     # Muestra un título principal utilizando HTML -> st.markdown("...", unsafe_allow_html=True)
     # La etiqueta <h1> define un encabezado de nivel 1 -> "<h1 ...>...</h1>"
