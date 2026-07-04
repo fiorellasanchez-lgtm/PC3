@@ -152,13 +152,13 @@ elif opciones == 'Gráficos':
 
     elif grafico_seleccionado == 'Gráfico_2':
         # Título de la sección
-        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        st.subheader("📊 Gráfico 2: Gráfico de barras")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
+            Gráfico de barras
             </div>
             """,
             unsafe_allow_html=True
@@ -169,9 +169,33 @@ elif opciones == 'Gráficos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "GRAFICO2.jpeg",
                 width=800
             )
+
+     elif grafico_seleccionado == 'Gráfico_3':
+        # Título de la sección
+        st.subheader("📊 Gráfico 3: Gráfico de barras")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 18px;'>
+            Gráfico de barras
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen
+        col6, col7, col8 = st.columns([1, 5, 1])
+
+        with col7:
+            st.image(
+                "GRAFICO3.jpeg",
+                width=800
+            )
+            
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
         st.subheader("🗺️ Mapa 1: Distribución geográfica")
