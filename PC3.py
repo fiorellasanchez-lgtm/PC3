@@ -122,7 +122,7 @@ elif opciones == 'Experiencia':
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Gráficos </h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
+    graficos = ['Gráfico_1', 'Gráfico_2', 'Gráfico_3', 'Mapa_1']
 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
 
