@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc8b0a334eca3002338b7f0ad1144824 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fc8b0a334eca3002338b7f0ad1144824" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fc8b0a334eca3002338b7f0ad1144824 = L.map(
+                "map_fc8b0a334eca3002338b7f0ad1144824",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68b7e677f1deff2e5845e18d04e52eb5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_68b7e677f1deff2e5845e18d04e52eb5.addTo(map_fc8b0a334eca3002338b7f0ad1144824);
+        
+    
+            var marker_adc11f91ece5aac40b2f474919248e94 = L.marker(
+                [34.1478, -118.1597],
+                {
+}
+            ).addTo(map_fc8b0a334eca3002338b7f0ad1144824);
+        
+    
+            var icon_70662d362fd0aaee6f1177b19ce74461 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89c8503b0a2adf9e436c3c51c32e0bf7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9eabc99a4216035178b1642ab051c9e = $(`<div id="html_d9eabc99a4216035178b1642ab051c9e" style="width: 100.0%; height: 100.0%;">     <b>Volver al Futuro</b><br>     Director: Robert Zemeckis<br>     Año: 1985<br>     Tipo de producción: Película<br>     </div>`)[0];
+                popup_89c8503b0a2adf9e436c3c51c32e0bf7.setContent(html_d9eabc99a4216035178b1642ab051c9e);
+            
+        
+
+        marker_adc11f91ece5aac40b2f474919248e94.bindPopup(popup_89c8503b0a2adf9e436c3c51c32e0bf7)
+        ;
+
+        
+    
+    
+            marker_adc11f91ece5aac40b2f474919248e94.bindTooltip(
+                `<div>
+                     Volver al Futuro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_adc11f91ece5aac40b2f474919248e94.setIcon(icon_70662d362fd0aaee6f1177b19ce74461);
+            
+    
+            var marker_a76c102c6af00fddbd1ba6957aa61498 = L.marker(
+                [30.3197, -86.1372],
+                {
+}
+            ).addTo(map_fc8b0a334eca3002338b7f0ad1144824);
+        
+    
+            var icon_fafb6cfa18b526551655d3f77d06c599 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_236673f17ebb63bf5a2d9eb19dcec2c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10b4bd17b9b30d660acf7868b72911d1 = $(`<div id="html_10b4bd17b9b30d660acf7868b72911d1" style="width: 100.0%; height: 100.0%;">     <b>El show de Truman</b><br>     Director: Peter Weir<br>     Año: 1998<br>     Tipo de producción: Película<br>     </div>`)[0];
+                popup_236673f17ebb63bf5a2d9eb19dcec2c4.setContent(html_10b4bd17b9b30d660acf7868b72911d1);
+            
+        
+
+        marker_a76c102c6af00fddbd1ba6957aa61498.bindPopup(popup_236673f17ebb63bf5a2d9eb19dcec2c4)
+        ;
+
+        
+    
+    
+            marker_a76c102c6af00fddbd1ba6957aa61498.bindTooltip(
+                `<div>
+                     El show de Truman
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a76c102c6af00fddbd1ba6957aa61498.setIcon(icon_fafb6cfa18b526551655d3f77d06c599);
+            
+    
+            var marker_6fe80666ba9f43361599d4e45d5f24e2 = L.marker(
+                [42.1936, -71.3283],
+                {
+}
+            ).addTo(map_fc8b0a334eca3002338b7f0ad1144824);
+        
+    
+            var icon_9c7f8b8adb75a3276d854ddc7f1c8c64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0143dcddf56e9c9a261fd1a8caa6fc70 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66798fe71d0158e2901bd60944836964 = $(`<div id="html_66798fe71d0158e2901bd60944836964" style="width: 100.0%; height: 100.0%;">     <b>La isla siniestra</b><br>     Director: Martin Scorsese<br>     Año: 2010<br>     Tipo de producción: Película<br>     </div>`)[0];
+                popup_0143dcddf56e9c9a261fd1a8caa6fc70.setContent(html_66798fe71d0158e2901bd60944836964);
+            
+        
+
+        marker_6fe80666ba9f43361599d4e45d5f24e2.bindPopup(popup_0143dcddf56e9c9a261fd1a8caa6fc70)
+        ;
+
+        
+    
+    
+            marker_6fe80666ba9f43361599d4e45d5f24e2.bindTooltip(
+                `<div>
+                     La isla siniestra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6fe80666ba9f43361599d4e45d5f24e2.setIcon(icon_9c7f8b8adb75a3276d854ddc7f1c8c64);
+            
+    
+            var marker_c4f142d9c098dc28cb01083c63891d39 = L.marker(
+                [35.1261, -106.5365],
+                {
+}
+            ).addTo(map_fc8b0a334eca3002338b7f0ad1144824);
+        
+    
+            var icon_541ad96195136d34f27f1c5189a677e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "video",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2683a77588deb38b871a789cfebc8d01 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_717fe71ec989a5879206c68ee669b75b = $(`<div id="html_717fe71ec989a5879206c68ee669b75b" style="width: 100.0%; height: 100.0%;">     <b>Breaking Bad</b><br>     Director: Vince Gilligan<br>     Año: 2008<br>     Tipo de producción: Serie<br>     </div>`)[0];
+                popup_2683a77588deb38b871a789cfebc8d01.setContent(html_717fe71ec989a5879206c68ee669b75b);
+            
+        
+
+        marker_c4f142d9c098dc28cb01083c63891d39.bindPopup(popup_2683a77588deb38b871a789cfebc8d01)
+        ;
+
+        
+    
+    
+            marker_c4f142d9c098dc28cb01083c63891d39.bindTooltip(
+                `<div>
+                     Breaking Bad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4f142d9c098dc28cb01083c63891d39.setIcon(icon_541ad96195136d34f27f1c5189a677e0);
+            
+    
+            var marker_e185b14f53d652304224ea5f042a32d6 = L.marker(
+                [35.0844, -106.6081],
+                {
+}
+            ).addTo(map_fc8b0a334eca3002338b7f0ad1144824);
+        
+    
+            var icon_76715fc82661c85b4d653104b11acb91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "video",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e85642685c66162b526c337e6c081467 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_640a638a51ec9d0f1fb2695ac3698b9c = $(`<div id="html_640a638a51ec9d0f1fb2695ac3698b9c" style="width: 100.0%; height: 100.0%;">     <b>Better Call Saul</b><br>     Director: Vince Gilligan<br>     Año: 2015<br>     Tipo de producción: Serie<br>     </div>`)[0];
+                popup_e85642685c66162b526c337e6c081467.setContent(html_640a638a51ec9d0f1fb2695ac3698b9c);
+            
+        
+
+        marker_e185b14f53d652304224ea5f042a32d6.bindPopup(popup_e85642685c66162b526c337e6c081467)
+        ;
+
+        
+    
+    
+            marker_e185b14f53d652304224ea5f042a32d6.bindTooltip(
+                `<div>
+                     Better Call Saul
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e185b14f53d652304224ea5f042a32d6.setIcon(icon_76715fc82661c85b4d653104b11acb91);
+            
+    
+            tile_layer_68b7e677f1deff2e5845e18d04e52eb5.addTo(map_fc8b0a334eca3002338b7f0ad1144824);
+        
+    
+                marker_adc11f91ece5aac40b2f474919248e94.setIcon(icon_70662d362fd0aaee6f1177b19ce74461);
+            
+    
+                marker_a76c102c6af00fddbd1ba6957aa61498.setIcon(icon_fafb6cfa18b526551655d3f77d06c599);
+            
+    
+                marker_6fe80666ba9f43361599d4e45d5f24e2.setIcon(icon_9c7f8b8adb75a3276d854ddc7f1c8c64);
+            
+    
+                marker_c4f142d9c098dc28cb01083c63891d39.setIcon(icon_541ad96195136d34f27f1c5189a677e0);
+            
+    
+                marker_e185b14f53d652304224ea5f042a32d6.setIcon(icon_76715fc82661c85b4d653104b11acb91);
+            
+</script>
+</html>
