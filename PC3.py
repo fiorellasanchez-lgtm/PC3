@@ -110,30 +110,18 @@ elif opciones == 'Experiencia':
     # Mostramos el texto
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_2}</div>", unsafe_allow_html=True)
 
-    # Formato A
-    # Agregamos todo los videos realizados en las prácticas anteriores
-    # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - YouTube")
-    # Inserta un video de YouTube directamente en la aplicación.
-    # El usuario puede reproducirlo sin salir de Streamlit.
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
-    # Agrega una breve descripción del video.
-    st.caption(
-        "En este video se presenta ...., "
-    )
-
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - Google Drive")
+    st.subheader("🎥 Video 1 - PENSAMIENTO COMPUTACIONAL")
     # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
     # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
     st.link_button(
             "Ver video",
-            "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link"
+            "https://drive.google.com/file/d/1LitX9xPvZMYndDJwXgCH9NTwa78U3gDw/view?usp=drive_link"
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta ...., "
+        "En este video se presenta la explicación del avance de la Práctica Calificada 2. Menciono las diferencias entre los bucles for y while"
     )
 
 elif opciones == 'Gráficos':
